@@ -1,0 +1,27 @@
+*{
+    text-align: center;
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgb(160, 122, 78);
+}
+
+.pageTitle{
+    margin: 50px;
+}
+
+.bookContainer{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.card{
+    background-color: rgb(202, 120, 73);
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    border: rgb(255, 159, 70) solid 2px;
+    box-shadow: 10px 10px rgba(39, 2, 2, 0.452);
+}
