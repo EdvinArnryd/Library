@@ -7,6 +7,10 @@ body{
     background-color: rgb(160, 122, 78);
 }
 
+h1{
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.377);
+}
+
 .pageTitle{
     margin: 50px;
 }
@@ -21,7 +25,7 @@ body{
     background-color: rgb(202, 120, 73);
     margin: 10px;
     padding: 50px;
-    border-radius: 10px;
+    border-radius: 20px 0px 0px 20px;
     border: rgb(255, 159, 70) solid 2px;
-    box-shadow: 10px 10px rgba(39, 2, 2, 0.452);
+    box-shadow: 5px 5px rgba(39, 2, 2, 0.452), 10px 10px rgba(39, 2, 2, 0.452), 15px 15px rgba(39, 2, 2, 0.452), 20px 20px rgba(39, 2, 2, 0.452);
 }

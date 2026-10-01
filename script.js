@@ -33,6 +33,12 @@ function createBookElement(title, author, pages) {
   bookContainer.appendChild(card);
 }
 
+function spawnAllBooks() {
+  myLibrary.forEach((book) => {
+    createBookElement(book.title, book.author, book.pages);
+  }); 
+}
+
 
 // Test data
 let lotro = new Book(crypto.randomUUID(), "Lord of the Rings", "JRR Tolkien", 588);
@@ -41,5 +47,4 @@ let bamse = new Book(crypto.randomUUID(), "Bamse", "Svensk Författare", 78);
 myLibrary.push(lotro);
 myLibrary.push(bamse);
 
-createBookElement(myLibrary[0].title, myLibrary[0].author, myLibrary[0].pages);
-createBookElement(myLibrary[1].title, myLibrary[1].author, myLibrary[1].pages);
+spawnAllBooks();
